@@ -1,0 +1,20 @@
+{
+  "header.title": "BitMatrix",
+  "header.subtitle": "Multiplicación de matrices booleanas — ∧ (AND) en vez de multiplicar, ∨ (OR) en vez de sumar.",
+  "mode.rapida": "Rápida",
+  "mode.didactica": "Didáctica",
+  "dims.title": "Dimensiones",
+  "dims.rowsA": "Filas A",
+  "dims.colsA": "Cols A",
+  "dims.rowsB": "Filas B",
+  "dims.colsB": "Cols B",
+  "dims.generate": "Generar",
+  "dims.random": "Aleatorio",
+  "matrix.a": "Matriz A",
+  "matrix.b": "Matriz B",
+  "matrix.result": "Resultado",
+  "action.multiply": "Multiplicar",
+  "action.reset": "Reiniciar",
+  "step.title": "Paso a paso — {rows}x{cols}",
+  "error.incompatible": "Dimensiones incompatibles: columnas de A ({colsA}) ≠ filas de B ({rowsB})"
+}
