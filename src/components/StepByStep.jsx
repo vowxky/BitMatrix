@@ -1,4 +1,4 @@
-import { Check, X } from 'lucide-react';
+import { Check, X, ChevronRight } from 'lucide-react';
 import { useT } from '../i18n/index.js';
 
 export default function StepByStep({ steps, rows, cols }) {
@@ -15,9 +15,10 @@ export default function StepByStep({ steps, rows, cols }) {
         {steps.map((step) => (
           <details
             key={`${step.i}-${step.j}`}
-            className="rounded-2xl border border-white/5 bg-[#111] overflow-hidden"
+            className="group rounded-2xl border border-white/5 bg-[#111] overflow-hidden"
           >
-            <summary className="inline-flex items-center gap-3 w-full px-4 sm:px-5 py-3.5 cursor-pointer hover:bg-white/5 transition-colors text-sm">
+            <summary className="inline-flex items-center gap-3 w-full px-4 sm:px-5 py-3.5 cursor-pointer hover:bg-white/5 transition-colors text-sm [&::-webkit-details-marker]:hidden list-none">
+              <ChevronRight size={14} className="text-[#a3a3a3] transition-transform duration-150 group-open:rotate-90" />
               <span className="font-mono font-bold text-white">
                 C[{step.i},{step.j}]
               </span>
