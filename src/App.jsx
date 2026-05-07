@@ -99,7 +99,7 @@ export default function App() {
         <footer className="mt-16 pt-6 border-t border-white/5 text-center text-xs text-[#a3a3a3] space-y-1">
           <p>
             MIT License &copy; {new Date().getFullYear()}{' '}
-            <a href="https://github.com/vowxky/BitMatrix" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/vowxky" target="_blank" rel="noopener noreferrer"
                className="text-white/60 hover:text-white transition-colors">
               Vowxky
             </a>
